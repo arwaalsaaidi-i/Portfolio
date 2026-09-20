@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arwa Ibrahim Alsaaidi — Data Analyst</title>
+<meta name="description" content="Arwa Ibrahim Alsaaidi — Data Analyst. Data analysis, visualization and interactive dashboards using Microsoft Excel and Power BI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="navbar-inner">
+    <a href="#top" class="brand" data-i18n="nav.name">ARWA IBRAHIM ALSAAIDI</a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#skills" data-i18n="nav.skills">Skills</a>
+      <a href="#projects" data-i18n="nav.projects">Projects</a>
+      <a href="#resume" data-i18n="nav.resume">Resume</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+      <button class="lang-toggle" id="langToggleDesktop" aria-label="Switch language">
+        <span data-lang-opt="en" class="is-active">EN</span>
+        <span class="divider">|</span>
+        <span data-lang-opt="ar">AR</span>
+      </button>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-menu" id="mobileMenu" aria-label="Mobile">
+  <a href="#about" data-i18n="nav.about">About</a>
+  <a href="#skills" data-i18n="nav.skills">Skills</a>
+  <a href="#projects" data-i18n="nav.projects">Projects</a>
+  <a href="#resume" data-i18n="nav.resume">Resume</a>
+  <a href="#contact" data-i18n="nav.contact">Contact</a>
+  <button class="lang-toggle" id="langToggleMobile" aria-label="Switch language">
+    <span data-lang-opt="en" class="is-active">EN</span>
+    <span class="divider">|</span>
+    <span data-lang-opt="ar">AR</span>
+  </button>
+</nav>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <p class="eyebrow-name" data-i18n="hero.name">ARWA IBRAHIM ALSAAIDI</p>
+        <h1 class="hero-title" data-i18n="hero.title">DATA ANALYST</h1>
+        <p class="hero-tagline" data-i18n="hero.tagline">Data Analysis · Visualization · Interactive Dashboards</p>
+        <div class="hero-cta">
+          <a href="#projects" class="link-cta primary" data-i18n="hero.cta">VIEW PROJECTS →</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.75">
+            <line x1="40" y1="150" x2="360" y2="150" stroke="#202020" stroke-width="1" opacity="0.08"/>
+            <line x1="40" y1="230" x2="360" y2="230" stroke="#202020" stroke-width="1" opacity="0.08"/>
+            <rect x="235" y="165" width="58" height="58" fill="none" stroke="#55C8BF" stroke-width="1.3"/>
+            <line x1="235" y1="194" x2="150" y2="150" stroke="#55C8BF" stroke-width="1" opacity="0.6"/>
+            <line x1="293" y1="194" x2="330" y2="255" stroke="#55C8BF" stroke-width="1" opacity="0.6"/>
+            <line x1="150" y1="150" x2="105" y2="230" stroke="#202020" stroke-width="1" opacity="0.18"/>
+            <circle cx="150" cy="150" r="3.5" fill="#32B8AE"/>
+            <circle cx="330" cy="255" r="3.5" fill="#55C8BF"/>
+            <circle cx="105" cy="230" r="2.5" fill="#202020" opacity="0.35"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="reveal">
+        <p class="eyebrow" data-i18n="about.number">01 / ABOUT ME</p>
+        <div class="about-grid" style="margin-top:2.4rem;">
+          <p class="about-lede" data-i18n="about.lede">I am a Data Analyst with a strong interest in turning data into clear and useful insights.</p>
+          <div class="about-body">
+            <p data-i18n="about.p2">I have developed hands-on experience through projects involving data cleaning, analysis, visualization, and interactive dashboard development using Microsoft Excel and Power BI.</p>
+            <p data-i18n="about.p3">My portfolio showcases practical projects where I worked with real-world datasets, explored patterns and trends, and presented findings through clear and interactive dashboards.</p>
+            <p data-i18n="about.p4">I am continuously developing my analytical and technical skills and looking for opportunities to apply these skills in a professional environment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="reveal">
+      <p class="eyebrow" data-i18n="skills.number">02 / SKILLS</p>
+
+      <div class="skills-grid" style="margin-top:2.6rem;">
+        <div class="skill-card">
+          <h3 data-i18n="skills.card1.title">Data Analysis</h3>
+          <ul>
+            <li data-i18n="skills.card1.li1">Data Cleaning</li>
+            <li data-i18n="skills.card1.li2">Data Transformation</li>
+            <li data-i18n="skills.card1.li3">Data Analysis</li>
+            <li data-i18n="skills.card1.li4">Trend Analysis</li>
+            <li data-i18n="skills.card1.li5">Data Visualization</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3 data-i18n="skills.card2.title">Tools</h3>
+          <ul>
+            <li data-i18n="skills.card2.li1">Microsoft Excel</li>
+            <li data-i18n="skills.card2.li2">Microsoft Power BI</li>
+            <li data-i18n="skills.card2.li3">Power Query</li>
+            <li data-i18n="skills.card2.li4">DAX</li>
+            <li data-i18n="skills.card2.li5">PivotTables &amp; PivotCharts</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3 data-i18n="skills.card3.title">Dashboard &amp; Reporting</h3>
+          <ul>
+            <li data-i18n="skills.card3.li1">Interactive Dashboards</li>
+            <li data-i18n="skills.card3.li2">KPI Development</li>
+            <li data-i18n="skills.card3.li3">PivotTables &amp; PivotCharts</li>
+            <li data-i18n="skills.card3.li4">Slicers &amp; Dynamic Filtering</li>
+            <li data-i18n="skills.card3.li5">Analytical Reporting</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="reveal">
+      <p class="eyebrow" data-i18n="projects.number">03 / PROJECTS</p>
+
+      <div class="projects-grid" style="margin-top:2.6rem;">
+
+        <!-- Project 1: Excel -->
+        <article class="project-card is-featured">
+          <div class="project-media">
+            <img src="images/hr-dashboard-overview.png" alt="" data-i18n-alt="project1.imgalt"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="media-fallback" style="display:none;">
+              <span data-i18n="fallback.image">Dashboard preview image</span>
+              <code>images/hr-dashboard-overview.png</code>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-number">01</span>
+              <span class="project-tool" data-i18n="project1.tool">Microsoft Excel</span>
+            </div>
+            <h3 class="project-title" data-i18n="project1.title">HR Analytics Dashboard</h3>
+            <p class="project-desc" data-i18n="project1.desc">An interactive HR dashboard developed in Microsoft Excel to analyze workforce distribution, compensation, performance, satisfaction, absenteeism, recruitment, and employee attrition.</p>
+            <p class="project-tools" data-i18n="project1.tools">Microsoft Excel · PivotTables · PivotCharts · Slicers</p>
+            <button class="link-cta" data-open-case="excel" data-i18n="cta.viewcase">VIEW CASE STUDY →</button>
+          </div>
+        </article>
+
+        <!-- Project 2: Power BI -->
+        <article class="project-card">
+          <div class="project-media">
+            <img src="images/powerbi-dashboard.png" alt="" data-i18n-alt="project2.imgalt"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="media-fallback" style="display:none;">
+              <span data-i18n="fallback.image">Dashboard preview image</span>
+              <code>images/powerbi-dashboard.png</code>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-number">02</span>
+              <span class="project-tool" data-i18n="project2.tool">Microsoft Power BI</span>
+            </div>
+            <h3 class="project-title" data-i18n="project2.title">Saudi Arabia Macroeconomic Dashboard</h3>
+            <p class="project-desc" data-i18n="project2.desc">An interactive Power BI dashboard analyzing 52 historical economic, demographic, social, financial, and development indicators for Saudi Arabia using World Bank data.</p>
+            <p class="project-tools" data-i18n="project2.tools">Microsoft Power BI · Power Query · DAX · Data Modeling</p>
+            <button class="link-cta" data-open-case="powerbi" data-i18n="cta.viewcase">VIEW CASE STUDY →</button>
+          </div>
+        </article>
+
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= RESUME ================= -->
+  <section class="section resume-section" id="resume">
+    <div class="container">
+      <div class="resume-inner">
+        <div class="resume-text reveal">
+          <p class="eyebrow" data-i18n="resume.number">04 / RESUME</p>
+          <h2 data-i18n="resume.text">Interested in learning more about my background and experience?</h2>
+          <div class="resume-cta">
+            <a href="RESUME_URL" class="link-cta primary" data-i18n="resume.cta">DOWNLOAD RESUME →</a>
+          </div>
+        </div>
+        <svg class="resume-geo" viewBox="0 0 200 200" aria-hidden="true">
+          <line x1="20" y1="140" x2="180" y2="140" stroke="#202020" stroke-width="1" opacity="0.1"/>
+          <rect x="118" y="55" width="34" height="34" fill="none" stroke="#55C8BF" stroke-width="1.2"/>
+          <line x1="135" y1="89" x2="105" y2="140" stroke="#55C8BF" stroke-width="1" opacity="0.6"/>
+          <circle cx="105" cy="140" r="3" fill="#32B8AE"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="reveal">
+          <p class="contact-eyebrow" data-i18n="contact.number">05 / CONTACT</p>
+          <h2 class="contact-heading" data-i18n="contact.heading">LET'S CONNECT</h2>
+          <p class="contact-sub" data-i18n="contact.sub">Interested in working together or discussing a data analytics opportunity?</p>
+          <div class="contact-buttons">
+            <a href="EMAIL_URL" class="link-cta primary" data-i18n="contact.email">EMAIL ME →</a>
+            <a href="LINKEDIN_URL" class="link-cta" data-i18n="contact.linkedin" target="_blank" rel="noopener">LINKEDIN →</a>
+          </div>
+        </div>
+        <div class="contact-visual" aria-hidden="true">
+          <svg viewBox="0 0 300 300">
+            <line x1="40" y1="180" x2="260" y2="180" stroke="#FFFDF8" stroke-width="1" opacity="0.08"/>
+            <rect x="150" y="90" width="46" height="46" fill="none" stroke="#55C8BF" stroke-width="1.2" opacity="0.9"/>
+            <line x1="150" y1="136" x2="95" y2="180" stroke="#55C8BF" stroke-width="1" opacity="0.55"/>
+            <line x1="196" y1="113" x2="235" y2="70" stroke="#55C8BF" stroke-width="1" opacity="0.4"/>
+            <circle cx="95" cy="180" r="3.5" fill="#55C8BF"/>
+            <circle cx="235" cy="70" r="2.5" fill="#55C8BF" opacity="0.6"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-left">
+      <span class="footer-brand" data-i18n="footer.name">ARWA IBRAHIM ALSAAIDI</span>
+      <span class="footer-role" data-i18n="footer.role">DATA ANALYST</span>
+    </div>
+    <div class="footer-right">
+      <span class="footer-lang" data-i18n="footer.lang">EN / AR</span>
+      <span class="footer-year" data-i18n="footer.year">© 2026</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= CASE STUDY: EXCEL ================= -->
+<section class="case-study" id="caseExcel" aria-hidden="true">
+  <div class="case-study-header">
+    <button class="back-link" data-close-case data-i18n="cta.back">← BACK TO PROJECTS</button>
+    <span class="case-study-tag" data-i18n="project1.tool">Microsoft Excel</span>
+  </div>
+  <div class="case-study-inner">
+
+    <div class="case-hero">
+      <p class="case-number"><span data-i18n="case.label">PROJECT</span> / 01</p>
+      <h1 data-i18n="project1.title">HR Analytics Dashboard</h1>
+      <p class="case-tool" data-i18n="project1.tools">Microsoft Excel · PivotTables · PivotCharts · Slicers</p>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="xl.overview.title">Project Overview</h2>
+      <p data-i18n="xl.overview.body">This project involved analyzing an HR dataset to understand workforce distribution, compensation, performance, satisfaction, absenteeism, and employee attrition. I prepared and structured the data in Microsoft Excel and used PivotTables, PivotCharts, and interactive filters to explore the data from different perspectives. The analysis was then presented through an interactive dashboard, highlighting key workforce and HR trends that can support data-driven decision-making.</p>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="xl.objective.title">Project Objective</h2>
+      <p data-i18n="xl.objective.body">The objective of this project was to turn raw HR data into a clear and useful view of the organization's workforce. The analysis focused on understanding workforce distribution, salary levels, performance, satisfaction, absenteeism, and attrition, while identifying patterns across departments. The final goal was to present these findings in an interactive dashboard that makes HR metrics easier to explore and use for decision-making.</p>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="xl.prep.title">Data Preparation</h2>
+      <div class="process-flow">
+        <div class="process-step"><span data-i18n="flow.raw">Raw Data</span></div>
+        <div class="process-step"><span data-i18n="flow.standardize">Field Standardization</span></div>
+        <div class="process-step"><span data-i18n="flow.validate">Data Type Validation</span></div>
+        <div class="process-step"><span data-i18n="flow.quality">Data Quality Check</span></div>
+        <div class="process-step"><span data-i18n="flow.table">Structured Excel Table</span></div>
+        <div class="process-step"><span data-i18n="flow.dashboard">PivotTables + Dashboard</span></div>
+      </div>
+      <p class="supporting-text" data-i18n="xl.prep.body">I started by reviewing the raw HR dataset and preparing it for analysis. I standardized inconsistent fields, separated grouped information within cells, and reviewed dates, text fields, and salary values to ensure consistent data types. I also checked for empty and inconsistent values that could affect the analysis. Once the data was cleaned and structured, I converted it into an Excel Table and used it as the foundation for the dashboard and PivotTable analysis.</p>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="xl.analysis.title">Analysis &amp; Dashboard Development</h2>
+      <p data-i18n="xl.analysis.body">Once the data was prepared, I used Microsoft Excel to analyze the main HR metrics and compare results across departments. The analysis covered workforce distribution, salary and payroll levels, performance ratings, satisfaction and engagement, absenteeism, recruitment sources, and attrition. I used PivotTables and PivotCharts to organize the analysis and built an interactive dashboard with KPI cards, charts, and slicers, allowing the results to be explored from different perspectives.</p>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="xl.insights.title">Key Insights</h2>
+
+      <div class="stat-row">
+        <div class="stat">
+          <p class="stat-value">209</p>
+          <p class="stat-label" data-i18n="bignum.xl.l1">Employees · Production</p>
+        </div>
+        <div class="stat">
+          <p class="stat-value">33.44%</p>
+          <p class="stat-label" data-i18n="bignum.xl.l2">Turnover Rate</p>
+        </div>
+        <div class="stat">
+          <p class="stat-value">3.89/5</p>
+          <p class="stat-label" data-i18n="bignum.xl.l3">Average Satisfaction</p>
+        </div>
+      </div>
+
+      <div class="insight-grid">
+        <div class="insight-card is-primary">
+          <h3 data-i18n="xl.insights.i1.h">Workforce Concentration</h3>
+          <p data-i18n="xl.insights.i1.p">Production had the largest workforce, with 209 employees, making it an important department to monitor from a workforce stability perspective.</p>
+        </div>
+        <div class="insight-card">
+          <h3 data-i18n="xl.insights.i2.h">Payroll &amp; Compensation</h3>
+          <p data-i18n="xl.insights.i2.p">Production recorded the highest total payroll at $12,530,291, mainly due to its larger workforce. The Executive Office had the highest average salary at $250,000.</p>
+        </div>
+        <div class="insight-card">
+          <h3 data-i18n="xl.insights.i3.h">Performance</h3>
+          <p data-i18n="xl.insights.i3.p">Most employees were rated Fully Meets Expectations (243 employees), while 37 employees were rated Exceeds Expectations. This suggests an opportunity to focus on employee development and progression.</p>
+        </div>
+        <div class="insight-card is-supporting">
+          <h3 data-i18n="xl.insights.i4.h">Employee Experience</h3>
+          <p data-i18n="xl.insights.i4.p">Average satisfaction was 3.89/5, while average engagement was 4.11/5.</p>
+        </div>
+        <div class="insight-card is-supporting">
+          <h3 data-i18n="xl.insights.i5.h">Attrition</h3>
+          <p data-i18n="xl.insights.i5.p">The dashboard showed a 33.44% turnover rate, with 104 terminated employees, making retention an area worth further investigation.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="xl.rec.title">Recommendations</h2>
+      <div class="rec-grid">
+        <div class="rec-card">
+          <h3 data-i18n="xl.rec.r1.h">Review Compensation</h3>
+          <p data-i18n="xl.rec.r1.p">Compare salary levels across departments and review compensation for roles where pay may not be competitive.</p>
+        </div>
+        <div class="rec-card">
+          <h3 data-i18n="xl.rec.r2.h">Monitor Production Workforce</h3>
+          <p data-i18n="xl.rec.r2.p">Given the size of the Production workforce (209 employees), regularly monitor staffing levels, performance, and workforce changes within the department.</p>
+        </div>
+        <div class="rec-card">
+          <h3 data-i18n="xl.rec.r3.h">Support Employee Development</h3>
+          <p data-i18n="xl.rec.r3.p">Use performance results to identify development opportunities, particularly for employees rated Fully Meets Expectations, to support career growth and progression.</p>
+        </div>
+        <div class="rec-card">
+          <h3 data-i18n="xl.rec.r4.h">Analyze Attrition Drivers</h3>
+          <p data-i18n="xl.rec.r4.p">Examine employee attrition by department, time period, and reason to better understand where retention challenges are concentrated.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="xl.tools.title">Tools &amp; Skills</h2>
+      <div class="tools-tags">
+        <span>Microsoft Excel</span>
+        <span data-i18n="tag.pivottables">PivotTables</span>
+        <span data-i18n="tag.pivotcharts">PivotCharts</span>
+        <span data-i18n="tag.slicers">Slicers</span>
+        <span data-i18n="tag.datacleaning">Data Cleaning</span>
+        <span data-i18n="tag.datatransformation">Data Transformation</span>
+        <span data-i18n="tag.dataanalysis">Data Analysis</span>
+        <span data-i18n="tag.interactivedash">Interactive Dashboards</span>
+        <span data-i18n="tag.kpidev">KPI Development</span>
+        <span data-i18n="tag.analyticalreporting">Analytical Reporting</span>
+      </div>
+    </div>
+
+    <div class="case-block">
+      <p class="dashboard-preview-title" data-i18n="preview.title">DASHBOARD PREVIEW</p>
+      <div class="preview-hero-img">
+        <img src="images/hr-dashboard-overview.png" alt="" data-i18n-alt="xl.preview.alt1"
+             onerror="this.parentElement.innerHTML='<div class=&quot;img-fallback&quot;><span data-i18n=&quot;fallback.image&quot;>Dashboard preview image</span><br><code>images/hr-dashboard-overview.png</code></div>'; window.applyLang && window.applyLang();">
+      </div>
+      <div class="preview-grid">
+        <figure>
+          <img src="images/hr-dashboard-demographics.png" alt="" data-i18n-alt="xl.preview.alt2"
+               onerror="this.parentElement.innerHTML='<div class=&quot;img-fallback&quot;><span data-i18n=&quot;fallback.image&quot;>Dashboard preview image</span><br><code>images/hr-dashboard-demographics.png</code></div>'; window.applyLang && window.applyLang();">
+          <figcaption data-i18n="xl.preview.cap2">Workforce Demographics &amp; Structure</figcaption>
+        </figure>
+        <figure>
+          <img src="images/hr-dashboard-compensation.png" alt="" data-i18n-alt="xl.preview.alt3"
+               onerror="this.parentElement.innerHTML='<div class=&quot;img-fallback&quot;><span data-i18n=&quot;fallback.image&quot;>Dashboard preview image</span><br><code>images/hr-dashboard-compensation.png</code></div>'; window.applyLang && window.applyLang();">
+          <figcaption data-i18n="xl.preview.cap3">Compensation &amp; Salary Analysis</figcaption>
+        </figure>
+        <figure>
+          <img src="images/hr-dashboard-performance.png" alt="" data-i18n-alt="xl.preview.alt4"
+               onerror="this.parentElement.innerHTML='<div class=&quot;img-fallback&quot;><span data-i18n=&quot;fallback.image&quot;>Dashboard preview image</span><br><code>images/hr-dashboard-performance.png</code></div>'; window.applyLang && window.applyLang();">
+          <figcaption data-i18n="xl.preview.cap4">Performance &amp; Training</figcaption>
+        </figure>
+        <figure>
+          <img src="images/hr-dashboard-attrition.png" alt="" data-i18n-alt="xl.preview.alt5"
+               onerror="this.parentElement.innerHTML='<div class=&quot;img-fallback&quot;><span data-i18n=&quot;fallback.image&quot;>Dashboard preview image</span><br><code>images/hr-dashboard-attrition.png</code></div>'; window.applyLang && window.applyLang();">
+          <figcaption data-i18n="xl.preview.cap5">Attrition &amp; Retention</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="case-end-cta">
+      <a href="projects/HR-Analytics-Dashboard.xlsx" class="link-cta primary" download data-i18n="xl.download">DOWNLOAD PROJECT FILE →</a>
+      <a href="EXCEL_PROJECT_REPORT_URL" class="link-cta" target="_blank" rel="noopener" data-i18n="cta.viewreport">VIEW PROJECT REPORT →</a>
+      <button class="link-cta" data-close-case data-i18n="cta.back">← BACK TO PROJECTS</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CASE STUDY: POWER BI ================= -->
+<section class="case-study" id="casePowerbi" aria-hidden="true">
+  <div class="case-study-header">
+    <button class="back-link" data-close-case data-i18n="cta.back">← BACK TO PROJECTS</button>
+    <span class="case-study-tag" data-i18n="project2.tool">Microsoft Power BI</span>
+  </div>
+  <div class="case-study-inner">
+
+    <div class="case-hero">
+      <p class="case-number"><span data-i18n="case.label">PROJECT</span> / 02</p>
+      <h1 data-i18n="project2.title">Saudi Arabia Macroeconomic Dashboard</h1>
+      <p class="case-tool" data-i18n="project2.tools">Microsoft Power BI · Power Query · DAX · Data Modeling</p>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="pbi.overview.title">Project Overview</h2>
+      <p data-i18n="pbi.overview.p1">This project involved analyzing historical macroeconomic data for Saudi Arabia using Microsoft Power BI. The analysis covered 52 economic, demographic, social, financial, and development indicators sourced from the World Bank.</p>
+      <p data-i18n="pbi.overview.p2">I prepared and transformed the dataset using Power Query, structured the data for analysis, and developed an interactive dashboard that allows users to select individual indicators and explore their values and historical trends over time.</p>
+      <p data-i18n="pbi.overview.p3">The final dashboard provides a clear and interactive view of Saudi Arabia's macroeconomic indicators and demonstrates the use of Power BI to transform raw data into meaningful analytical insights.</p>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="pbi.objective.title">Objective</h2>
+      <p data-i18n="pbi.objective.p1">The objective of this project was to transform historical World Bank data into an interactive Power BI dashboard that makes Saudi Arabia's macroeconomic indicators easier to explore and interpret.</p>
+      <p data-i18n="pbi.objective.p2">The analysis focused on examining changes and trends across 52 indicators over time, while enabling users to dynamically select an indicator, view its value for a selected year, and explore its historical trend.</p>
+      <p data-i18n="pbi.objective.p3">The project also aimed to demonstrate a structured data analysis workflow, from data preparation and transformation in Power Query to interactive visualization in Power BI.</p>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="pbi.source.title">Data Source &amp; Dataset</h2>
+      <p data-i18n="pbi.source.p1">The dataset was sourced from the World Bank and contains historical data for Saudi Arabia across multiple years.</p>
+      <p data-i18n="pbi.source.p2">The dataset includes 52 indicators covering a broad range of areas, including:</p>
+      <ul class="plain-list">
+        <li data-i18n="pbi.source.li1">Macroeconomic indicators</li>
+        <li data-i18n="pbi.source.li2">Trade and investment</li>
+        <li data-i18n="pbi.source.li3">Population and demographics</li>
+        <li data-i18n="pbi.source.li4">Education and health</li>
+        <li data-i18n="pbi.source.li5">Energy and natural resources</li>
+        <li data-i18n="pbi.source.li6">Public finance and development</li>
+      </ul>
+      <p style="margin-top:1rem;" data-i18n="pbi.source.p3">The original dataset contained indicator names alongside multiple year columns. To make the data suitable for analysis and interactive filtering in Power BI, it was transformed into a structured format using Power Query, with each record representing an indicator, year, and corresponding value.</p>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="pbi.prep.title">Data Preparation &amp; Power Query</h2>
+      <p data-i18n="pbi.prep.p1">I used Power Query to prepare and transform the World Bank dataset before building the dashboard. The preparation process focused on correcting the structure and data types, removing unnecessary records and errors, and converting the dataset into a format suitable for analysis.</p>
+      <ul class="plain-list process-list" style="margin-top:1.4rem;">
+        <li data-i18n="pbi.prep.li1">Changed data types to ensure consistency across fields.</li>
+        <li data-i18n="pbi.prep.li2">Removed unnecessary bottom rows from the source data.</li>
+        <li data-i18n="pbi.prep.li3">Promoted the appropriate row to column headers.</li>
+        <li data-i18n="pbi.prep.li4">Replaced values where required to improve consistency.</li>
+        <li data-i18n="pbi.prep.li5">Unpivoted the year columns to convert the dataset from a wide format into a structured long format.</li>
+        <li data-i18n="pbi.prep.li6">Removed errors that could affect the analysis.</li>
+        <li data-i18n="pbi.prep.li7">Extracted relevant text from fields where required.</li>
+      </ul>
+      <p style="margin-top:1.2rem;" data-i18n="pbi.prep.finalstructure">Final structure:</p>
+      <p style="font-weight:600; color:var(--charcoal);">Country Name | Series Name | Attribute (Year) | Value</p>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="pbi.model.title">Data Modeling, DAX &amp; Dashboard Development</h2>
+      <p data-i18n="pbi.model.p1">After preparing the dataset, I structured the data for analysis in Power BI and created DAX measures to support the interactive dashboard.</p>
+      <p data-i18n="pbi.model.p2">The measures used the AVERAGE aggregation to calculate indicator values based on the selected filters. This approach was used because the dataset contains annual observations, making an average aggregation more appropriate than summing indicator values.</p>
+      <p data-i18n="pbi.model.p3">The dashboard includes an Indicator Slicer that allows users to select individual indicators and dynamically explore their values and historical trends. KPI cards display the selected year and indicator value, while the main trend visualization presents the selected indicator across the available years.</p>
+      <p data-i18n="pbi.model.p4">The dashboard was designed to provide a simple and interactive way to explore multiple economic and development indicators within a single analytical view.</p>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="pbi.insights.title">Key Insights</h2>
+
+      <div class="stat-row">
+        <div class="stat">
+          <p class="stat-value">52</p>
+          <p class="stat-label" data-i18n="bignum.pbi.l1">Indicators Analyzed</p>
+        </div>
+        <div class="stat">
+          <p class="stat-value">$1.24T</p>
+          <p class="stat-label" data-i18n="bignum.pbi.l2">GDP · 2024</p>
+        </div>
+        <div class="stat">
+          <p class="stat-value">12.00%</p>
+          <p class="stat-label" data-i18n="bignum.pbi.l3">GDP Growth · 2022</p>
+        </div>
+      </div>
+
+      <div class="insight-grid">
+        <div class="insight-card is-primary">
+          <h3 data-i18n="pbi.insights.i1.h">Economic Growth</h3>
+          <p data-i18n="pbi.insights.i1.p">GDP showed a long-term upward trend, with fluctuations across individual years. The selected 2024 GDP value was approximately $1.24 trillion.</p>
+        </div>
+        <div class="insight-card">
+          <h3 data-i18n="pbi.insights.i2.h">GDP Growth</h3>
+          <p data-i18n="pbi.insights.i2.p">The dashboard highlighted significant year-to-year changes in GDP growth, including a value of 12.00% in 2022.</p>
+        </div>
+        <div class="insight-card">
+          <h3 data-i18n="pbi.insights.i3.h">Income Levels</h3>
+          <p data-i18n="pbi.insights.i3.p">GNI per capita showed a generally upward movement over the available historical period. The selected 2023 value for GNI per capita, Atlas method, was approximately $36.33K.</p>
+        </div>
+        <div class="insight-card is-supporting">
+          <h3 data-i18n="pbi.insights.i4.h">Trade &amp; Economic Activity</h3>
+          <p data-i18n="pbi.insights.i4.p">Trade-related indicators, including exports, imports, and merchandise trade, provided different perspectives on Saudi Arabia's economic activity and its relationship with international markets.</p>
+        </div>
+        <div class="insight-card is-supporting">
+          <h3 data-i18n="pbi.insights.i5.h">Population &amp; Demographics</h3>
+          <p data-i18n="pbi.insights.i5.p">Population-related indicators showed changes in population size, growth, density, and migration over time, providing insight into demographic development.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="pbi.rec.title">Recommendations</h2>
+      <div class="rec-grid">
+        <div class="rec-card">
+          <h3 data-i18n="pbi.rec.r1.h">Monitor Key Economic Indicators</h3>
+          <p data-i18n="pbi.rec.r1.p">Continue tracking major indicators such as GDP, GDP growth, GNI, trade, inflation, and investment to identify significant changes over time.</p>
+        </div>
+        <div class="rec-card">
+          <h3 data-i18n="pbi.rec.r2.h">Investigate Major Changes</h3>
+          <p data-i18n="pbi.rec.r2.p">Examine periods with substantial changes in individual indicators, particularly around 2020, to better understand the factors associated with these movements.</p>
+        </div>
+        <div class="rec-card">
+          <h3 data-i18n="pbi.rec.r3.h">Explore Indicator Relationships</h3>
+          <p data-i18n="pbi.rec.r3.p">Compare related indicators to investigate potential relationships between economic activity, trade, investment, population, and development outcomes.</p>
+        </div>
+        <div class="rec-card">
+          <h3 data-i18n="pbi.rec.r4.h">Expand the Analysis</h3>
+          <p data-i18n="pbi.rec.r4.p">Incorporate additional economic datasets and more recent observations where available to provide a broader and more up-to-date view of Saudi Arabia's economic performance.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-block">
+      <h2 data-i18n="pbi.tools.title">Tools &amp; Skills</h2>
+      <div class="tools-tags">
+        <span>Microsoft Power BI</span>
+        <span>Power Query</span>
+        <span data-i18n="tag.datacleaning">Data Cleaning</span>
+        <span data-i18n="tag.datatransformation">Data Transformation</span>
+        <span data-i18n="tag.datarestructuring">Data Restructuring</span>
+        <span data-i18n="tag.unpivoting">Unpivoting</span>
+        <span data-i18n="tag.datamodeling">Data Modeling</span>
+        <span data-i18n="tag.daxmeasures">DAX Measures</span>
+        <span data-i18n="tag.averageagg">AVERAGE Aggregation</span>
+        <span data-i18n="tag.interactivedash">Interactive Dashboards</span>
+        <span data-i18n="tag.kpicards">KPI Cards</span>
+        <span data-i18n="tag.slicersfilter">Slicers &amp; Dynamic Filtering</span>
+        <span data-i18n="tag.trendanalysis">Trend Analysis</span>
+        <span data-i18n="tag.datavisualization">Data Visualization</span>
+      </div>
+    </div>
+
+    <div class="case-block">
+      <p class="dashboard-preview-title" data-i18n="preview.title">DASHBOARD PREVIEW</p>
+      <div class="preview-hero-img">
+        <img src="images/powerbi-dashboard.png" alt="" data-i18n-alt="pbi.preview.alt"
+             onerror="this.parentElement.innerHTML='<div class=&quot;img-fallback&quot;><span data-i18n=&quot;fallback.image&quot;>Dashboard preview image</span><br><code>images/powerbi-dashboard.png</code></div>'; window.applyLang && window.applyLang();">
+      </div>
+    </div>
+
+    <div class="case-end-cta">
+      <a href="POWER_BI_REPORT_URL" class="link-cta primary" target="_blank" rel="noopener" data-i18n="pbi.viewreport">VIEW POWER BI REPORT →</a>
+      <a href="POWERBI_PROJECT_REPORT_URL" class="link-cta" target="_blank" rel="noopener" data-i18n="cta.viewreport">VIEW PROJECT REPORT →</a>
+      <button class="link-cta" data-close-case data-i18n="cta.back">← BACK TO PROJECTS</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= LIGHTBOX ================= -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" data-i18n="cta.close">CLOSE ✕</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
