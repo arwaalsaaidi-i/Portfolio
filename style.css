@@ -1,4 +1,5 @@
-ARWA IBRAHIM ALSAAIDI — Data Analyst Portfolio
+/* ============================================================
+   ARWA IBRAHIM ALSAIDI — Data Analyst Portfolio
    Design language: Luxury Minimal + Editorial Premium + Data Premium
    ============================================================ */
 
@@ -13,7 +14,7 @@ ARWA IBRAHIM ALSAAIDI — Data Analyst Portfolio
   --border-hairline: rgba(32, 32, 32, 0.1);
   --border-tiffany: rgba(85, 200, 191, 0.35);
 
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-body: 'Inter', 'Readex Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
   --max-width: 1240px;
   --gutter: 6vw;
@@ -447,7 +448,7 @@ h1, h2, h3, h4, p { margin: 0; }
 
 .project-title {
   font-size: 1.35rem;
-  font-weight: 650;
+  font-weight: 700;
   margin-bottom: 0.8rem;
 }
 
@@ -734,7 +735,7 @@ h1, h2, h3, h4, p { margin: 0; }
 }
 .insight-card h3 {
   font-size: 0.98rem;
-  font-weight: 650;
+  font-weight: 600;
   margin-bottom: 0.5rem;
 }
 .insight-card p {
@@ -743,7 +744,7 @@ h1, h2, h3, h4, p { margin: 0; }
   color: var(--text-secondary);
 }
 .insight-card.is-primary {
-  grid-column: 1 / -1;
+  grid-column: span 6;
   border-inline-start-width: 3px;
   padding: clamp(1.8rem, 3vw, 2.4rem);
 }
@@ -756,7 +757,7 @@ h1, h2, h3, h4, p { margin: 0; }
 .insight-card.is-supporting h3 { font-size: 0.88rem; }
 .insight-card.is-supporting p { font-size: 0.85rem; }
 
-/* ---------- Recommendations: numbered analytical list, not SaaS cards ---------- */
+/* ---------- Recommendations: numbered analytical list ---------- */
 .rec-grid {
   display: flex;
   flex-direction: column;
@@ -782,7 +783,7 @@ h1, h2, h3, h4, p { margin: 0; }
 }
 .rec-card h3 {
   font-size: 1.02rem;
-  font-weight: 650;
+  font-weight: 600;
   margin-bottom: 0.4rem;
 }
 .rec-card p {
@@ -1012,7 +1013,7 @@ figcaption {
   /* Insights: 2-column tablet layout, primary keeps full width */
   .insight-grid { grid-template-columns: repeat(2, 1fr); }
   .insight-card { grid-column: span 1; }
-  .insight-card.is-primary { grid-column: 1 / -1; }
+  .insight-card.is-primary { grid-column: span 2; }
 }
 
 @media (max-width: 900px) {
@@ -1035,7 +1036,7 @@ figcaption {
   .insight-grid { grid-template-columns: 1fr; gap: 1rem; }
   .insight-card,
   .insight-card.is-primary,
-  .insight-card.is-supporting { grid-column: 1 / -1; }
+  .insight-card.is-supporting { grid-column: span 1; }
 
   /* Big numbers stack vertically — no horizontal crowding */
   .stat-row { flex-direction: column; border-bottom: none; }
