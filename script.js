@@ -6,14 +6,14 @@
      ============================================================ */
   var translations = {
     en: {
-      "nav.name": "ARWA IBRAHIM ALSAAIDI",
+      "nav.name": "ARWA IBRAHIM ALSAIDI",
       "nav.about": "About",
       "nav.skills": "Skills",
       "nav.projects": "Projects",
       "nav.resume": "Resume",
       "nav.contact": "Contact",
 
-      "hero.name": "ARWA IBRAHIM ALSAAIDI",
+      "hero.name": "ARWA IBRAHIM ALSAIDI",
       "hero.title": "DATA ANALYST",
       "hero.tagline": "Data Analysis · Visualization · Interactive Dashboards",
       "hero.cta": "VIEW PROJECTS →",
@@ -71,7 +71,7 @@
       "contact.email": "EMAIL ME →",
       "contact.linkedin": "LINKEDIN →",
 
-      "footer.name": "ARWA IBRAHIM ALSAAIDI",
+      "footer.name": "ARWA IBRAHIM ALSAIDI",
       "footer.role": "DATA ANALYST",
       "footer.lang": "EN / AR",
       "footer.year": "© 2026",
@@ -223,14 +223,14 @@
     },
 
     ar: {
-      "nav.name": "ARWA IBRAHIM ALSAAIDI",
+      "nav.name": "ARWA IBRAHIM ALSAIDI",
       "nav.about": "نبذة عني",
       "nav.skills": "المهارات",
       "nav.projects": "المشاريع",
       "nav.resume": "السيرة الذاتية",
       "nav.contact": "تواصل",
 
-      "hero.name": "ARWA IBRAHIM ALSAAIDI",
+      "hero.name": "ARWA IBRAHIM ALSAIDI",
       "hero.title": "محللة بيانات",
       "hero.tagline": "تحليل البيانات · التصور المرئي · لوحات معلومات تفاعلية",
       "hero.cta": "عرض المشاريع ←",
@@ -288,7 +288,7 @@
       "contact.email": "راسلني عبر البريد ←",
       "contact.linkedin": "لينكدإن ←",
 
-      "footer.name": "ARWA IBRAHIM ALSAAIDI",
+      "footer.name": "ARWA IBRAHIM ALSAIDI",
       "footer.role": "محللة بيانات",
       "footer.lang": "EN / AR",
       "footer.year": "© 2026",
@@ -366,7 +366,7 @@
 
       "pbi.overview.title": "نظرة عامة على المشروع",
       "pbi.overview.p1": "تضمن هذا المشروع تحليل بيانات تاريخية للمؤشرات الاقتصادية الكلية للمملكة العربية السعودية باستخدام Microsoft Power BI. شمل التحليل 52 مؤشرًا اقتصاديًا وديموغرافيًا واجتماعيًا وماليًا وتنمويًا مستمدة من البنك الدولي.",
-      "pbi.overview.p2": "قمت بإعداد وتحويل مجموعة البيانات باستخدام Power Query، ونظّمت البيانات للتحليل، وطوّرت لوحة معلومات تفاعلية تتيح للمستخدمين اختيار مؤشر معين واستكشاف قيمه واتجاهاته التاريخية عبر الزمن.",
+      "pbi.overview.p2": "قمت بإعداد وتحويل مجموعة البيانات باستخدام Power Query، ونظّمت البيانات للتحليل، وطوّرت لوحة معلومات تفاعلية تتيح للمستخدمين اختيار مؤشر معين واستكشاف قيمته واتجاهاته التاريخية عبر الزمن.",
       "pbi.overview.p3": "توفر لوحة المعلومات النهائية رؤية واضحة وتفاعلية للمؤشرات الاقتصادية الكلية للسعودية، وتُظهر كيفية استخدام Power BI لتحويل البيانات الخام إلى رؤى تحليلية ذات معنى.",
 
       "pbi.objective.title": "الهدف",
@@ -399,7 +399,7 @@
       "pbi.model.title": "نمذجة البيانات وDAX وتطوير لوحة المعلومات",
       "pbi.model.p1": "بعد إعداد مجموعة البيانات، قمت بتنظيم البيانات للتحليل في Power BI وأنشأت مقاييس DAX لدعم لوحة المعلومات التفاعلية.",
       "pbi.model.p2": "استخدمت المقاييس دالة التجميع AVERAGE لحساب قيم المؤشرات بناءً على الفلاتر المحددة. تم اعتماد هذا الأسلوب لأن البيانات تمثل مشاهدات سنوية، ما يجعل استخدام المتوسط أكثر ملاءمة من جمع قيم المؤشرات.",
-      "pbi.model.p3": "تضم لوحة المعلومات فلتر مؤشرات (Indicator Slicer) يتيح للمستخدمين اختيار مؤشر معين واستكشاف قيمه واتجاهاته التاريخية بشكل ديناميكي. تعرض بطاقات KPI السنة والقيمة المختارة للمؤشر، بينما يعرض الرسم البياني الرئيسي اتجاه المؤشر المختار عبر السنوات المتاحة.",
+      "pbi.model.p3": "تضم لوحة المعلومات فلتر مؤشرات (Indicator Slicer) يتيح للمستخدمين اختيار مؤشر معين واستكشاف قيمته واتجاهاته التاريخية بشكل ديناميكي. تعرض بطاقات KPI السنة والقيمة المختارة للمؤشر، بينما يعرض الرسم البياني الرئيسي اتجاه المؤشر المختار عبر السنوات المتاحة.",
       "pbi.model.p4": "صُممت لوحة المعلومات لتوفير طريقة بسيطة وتفاعلية لاستكشاف عدة مؤشرات اقتصادية وتنموية ضمن عرض تحليلي واحد.",
 
       "pbi.insights.title": "أبرز النتائج",
@@ -474,7 +474,7 @@
 
     document.title = lang === "ar"
       ? "أروى إبراهيم السعيدي — محللة بيانات"
-      : "Arwa Ibrahim Alsaaidi — Data Analyst";
+      : "Arwa Ibrahim Alsaidi — Data Analyst";
   }
   window.applyLang = applyLang;
 
@@ -574,16 +574,6 @@
       });
     });
 
-    document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape") {
-        Object.keys(caseMap).forEach(function (key) {
-          var panel = caseMap[key];
-          if (panel && panel.classList.contains("is-open")) closeCase(panel);
-        });
-        closeLightbox();
-      }
-    });
-
     /* ---------- Lightbox ---------- */
     var lightbox = document.getElementById("lightbox");
     var lightboxImg = document.getElementById("lightboxImg");
@@ -603,6 +593,20 @@
       lightboxImg.src = "";
     }
 
+    /* تحسين إدارة حدث الكيبورد للإغلاق عبر Escape بشكل منظم */
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") {
+        if (lightbox && lightbox.classList.contains("is-open")) {
+          closeLightbox();
+        } else {
+          Object.keys(caseMap).forEach(function (key) {
+            var panel = caseMap[key];
+            if (panel && panel.classList.contains("is-open")) closeCase(panel);
+          });
+        }
+      }
+    });
+
     document.querySelectorAll(".preview-hero-img img, .preview-grid img").forEach(function (img) {
       img.addEventListener("click", function () {
         openLightbox(img.currentSrc || img.src, img.alt);
@@ -616,7 +620,10 @@
         }
       });
     });
-    if (lightboxClose) lightboxClose.addEventListener("click", closeLightbox);
+    if (lightboxClose) {
+      lightboxClose.setAttribute("tabindex", "0");
+      lightboxClose.addEventListener("click", closeLightbox);
+    }
     if (lightbox) {
       lightbox.addEventListener("click", function (e) {
         if (e.target === lightbox) closeLightbox();
@@ -633,4 +640,3 @@
     onScroll();
   });
 })();
-
