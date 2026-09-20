@@ -80,6 +80,15 @@
     </div>
   </section>
 
+  <section class="proof-strip" aria-label="Portfolio focus">
+    <div class="proof-strip-inner">
+      <div class="proof-item"><span class="proof-value">02</span><span class="proof-label" data-i18n="proof.projects">Selected projects</span></div>
+      <div class="proof-item"><span class="proof-value">52</span><span class="proof-label" data-i18n="proof.indicators">Power BI indicators</span></div>
+      <div class="proof-item"><span class="proof-value">02</span><span class="proof-label" data-i18n="proof.tools">Core analytics tools</span></div>
+      <div class="proof-item"><span class="proof-value">01</span><span class="proof-label" data-i18n="proof.language">EN / AR</span></div>
+    </div>
+  </section>
+
   <!-- ================= ABOUT ================= -->
   <section class="section" id="about">
     <div class="container">
@@ -146,17 +155,21 @@
     <div class="container">
       <div class="reveal">
       <p class="eyebrow" data-i18n="projects.number">03 / PROJECTS</p>
+      <div class="section-intro project-intro">
+        <h2 class="section-heading" data-i18n="projects.heading">Selected analytical work</h2>
+        <p data-i18n="projects.sub">Two practical projects focused on cleaning, analysis, visualization, and interactive reporting — presented as case studies rather than template cards.</p>
+      </div>
 
       <div class="projects-grid" style="margin-top:2.6rem;">
 
         <!-- Project 1: Excel -->
         <article class="project-card is-featured">
           <div class="project-media">
-            <img src="images/hr-dashboard-overview.png" alt="" data-i18n-alt="project1.imgalt"
+            <img src="images/hr-dashboard-overview.svg" alt="" data-i18n-alt="project1.imgalt"
                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
             <div class="media-fallback" style="display:none;">
               <span data-i18n="fallback.image">Dashboard preview image</span>
-              <code>images/hr-dashboard-overview.png</code>
+              <code>images/hr-dashboard-overview.svg</code>
             </div>
           </div>
           <div class="project-body">
@@ -166,6 +179,7 @@
             </div>
             <h3 class="project-title" data-i18n="project1.title">HR Analytics Dashboard</h3>
             <p class="project-desc" data-i18n="project1.desc">An interactive HR dashboard developed in Microsoft Excel to analyze workforce distribution, compensation, performance, satisfaction, absenteeism, recruitment, and employee attrition.</p>
+            <div class="project-scope"><span data-i18n="project1.scopeLabel">FOCUS</span><strong data-i18n="project1.scope">HR metrics · workforce · attrition</strong></div>
             <p class="project-tools" data-i18n="project1.tools">Microsoft Excel · PivotTables · PivotCharts · Slicers</p>
             <button class="link-cta" data-open-case="excel" data-i18n="cta.viewcase">VIEW CASE STUDY →</button>
           </div>
@@ -174,11 +188,11 @@
         <!-- Project 2: Power BI -->
         <article class="project-card">
           <div class="project-media">
-            <img src="images/powerbi-dashboard.png" alt="" data-i18n-alt="project2.imgalt"
+            <img src="images/powerbi-dashboard.svg" alt="" data-i18n-alt="project2.imgalt"
                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
             <div class="media-fallback" style="display:none;">
               <span data-i18n="fallback.image">Dashboard preview image</span>
-              <code>images/powerbi-dashboard.png</code>
+              <code>images/powerbi-dashboard.svg</code>
             </div>
           </div>
           <div class="project-body">
@@ -188,6 +202,7 @@
             </div>
             <h3 class="project-title" data-i18n="project2.title">Saudi Arabia Macroeconomic Dashboard</h3>
             <p class="project-desc" data-i18n="project2.desc">An interactive Power BI dashboard analyzing 52 historical economic, demographic, social, financial, and development indicators for Saudi Arabia using World Bank data.</p>
+            <div class="project-scope"><span data-i18n="project2.scopeLabel">FOCUS</span><strong data-i18n="project2.scope">Economic indicators · trends · comparison</strong></div>
             <p class="project-tools" data-i18n="project2.tools">Microsoft Power BI · Power Query · DAX · Data Modeling</p>
             <button class="link-cta" data-open-case="powerbi" data-i18n="cta.viewcase">VIEW CASE STUDY →</button>
           </div>
@@ -228,8 +243,8 @@
           <h2 class="contact-heading" data-i18n="contact.heading">LET'S CONNECT</h2>
           <p class="contact-sub" data-i18n="contact.sub">Interested in working together or discussing a data analytics opportunity?</p>
           <div class="contact-buttons">
-            <a href="mailto:arwa.alsaaidi@gmail.com" class="link-cta primary" data-i18n="contact.email">EMAIL ME →</a>
-            <a href="https://linkedin.com" class="link-cta" data-i18n="contact.linkedin" target="_blank" rel="noopener">LINKEDIN →</a>
+            <a href="mailto:arwa.alsaaidi.demo@gmail.com" class="link-cta primary" data-i18n="contact.email">EMAIL ME →</a>
+            <a href="https://www.linkedin.com/in/arwa-ibrahim-alsaaidi/" class="link-cta" data-i18n="contact.linkedin" target="_blank" rel="noopener">LINKEDIN →</a>
           </div>
         </div>
         <div class="contact-visual" aria-hidden="true">
@@ -258,6 +273,7 @@
     <div class="footer-right">
       <span class="footer-lang" data-i18n="footer.lang">EN / AR</span>
       <span class="footer-year" data-i18n="footer.year">© 2026</span>
+      <span class="footer-status" data-i18n="footer.status">Portfolio preview · links are demo placeholders</span>
     </div>
   </div>
 </footer>
@@ -387,8 +403,8 @@
     <div class="case-block">
       <p class="dashboard-preview-title" data-i18n="preview.title">DASHBOARD PREVIEW</p>
       <div class="preview-hero-img">
-        <img src="images/hr-dashboard-overview.png" alt="" data-i18n-alt="xl.preview.alt1"
-             onerror="this.parentElement.innerHTML='<div class=&quot;img-fallback&quot;><span data-i18n=&quot;fallback.image&quot;>Dashboard preview image</span><br><code>images/hr-dashboard-overview.png</code></div>'; window.applyLang && window.applyLang();">
+        <img src="images/hr-dashboard-overview.svg" alt="" data-i18n-alt="xl.preview.alt1"
+             onerror="this.parentElement.innerHTML='<div class=&quot;img-fallback&quot;><span data-i18n=&quot;fallback.image&quot;>Dashboard preview image</span><br><code>images/hr-dashboard-overview.svg</code></div>'; window.applyLang && window.applyLang();">
       </div>
       <div class="preview-grid">
         <figure>
@@ -576,8 +592,8 @@
     <div class="case-block">
       <p class="dashboard-preview-title" data-i18n="preview.title">DASHBOARD PREVIEW</p>
       <div class="preview-hero-img">
-        <img src="images/powerbi-dashboard.png" alt="" data-i18n-alt="pbi.preview.alt"
-             onerror="this.parentElement.innerHTML='<div class=&quot;img-fallback&quot;><span data-i18n=&quot;fallback.image&quot;>Dashboard preview image</span><br><code>images/powerbi-dashboard.png</code></div>'; window.applyLang && window.applyLang();">
+        <img src="images/powerbi-dashboard.svg" alt="" data-i18n-alt="pbi.preview.alt"
+             onerror="this.parentElement.innerHTML='<div class=&quot;img-fallback&quot;><span data-i18n=&quot;fallback.image&quot;>Dashboard preview image</span><br><code>images/powerbi-dashboard.svg</code></div>'; window.applyLang && window.applyLang();">
       </div>
     </div>
 
