@@ -17,6 +17,12 @@
       "hero.title": "DATA ANALYST",
       "hero.tagline": "Data Analysis · Visualization · Interactive Dashboards",
       "hero.cta": "VIEW PROJECTS →",
+      "hero.about": "ABOUT ME ↓",
+
+      "proof.projects": "Selected projects",
+      "proof.indicators": "Power BI indicators",
+      "proof.tools": "Core analytics tools",
+      "proof.language": "EN / AR",
 
       "about.number": "01 / ABOUT ME",
       "about.lede": "I am a Data Analyst with a strong interest in turning data into clear and useful insights.",
@@ -45,6 +51,12 @@
       "skills.card3.li5": "Analytical Reporting",
 
       "projects.number": "03 / PROJECTS",
+      "projects.heading": "Selected analytical work",
+      "projects.sub": "Two practical projects focused on cleaning, analysis, visualization, and interactive reporting — presented as case studies rather than template cards.",
+      "project1.scopeLabel": "FOCUS",
+      "project1.scope": "HR metrics · workforce · attrition",
+      "project2.scopeLabel": "FOCUS",
+      "project2.scope": "Economic indicators · trends · comparison",
       "project1.tool": "Microsoft Excel",
       "project1.title": "HR Analytics Dashboard",
       "project1.desc": "An interactive HR dashboard developed in Microsoft Excel to analyze workforce distribution, compensation, performance, satisfaction, absenteeism, recruitment, and employee attrition.",
@@ -75,6 +87,7 @@
       "footer.role": "DATA ANALYST",
       "footer.lang": "EN / AR",
       "footer.year": "© 2026",
+      "footer.status": "Portfolio preview · links are demo placeholders",
 
       "case.label": "PROJECT",
 
@@ -234,6 +247,12 @@
       "hero.title": "محللة بيانات",
       "hero.tagline": "تحليل البيانات · التصور المرئي · لوحات معلومات تفاعلية",
       "hero.cta": "عرض المشاريع ←",
+      "hero.about": "عني ↓",
+
+      "proof.projects": "مشاريع مختارة",
+      "proof.indicators": "مؤشرات Power BI",
+      "proof.tools": "أدوات التحليل الأساسية",
+      "proof.language": "عربي / إنجليزي",
 
       "about.number": "01 / نبذة عني",
       "about.lede": "أنا محللة بيانات لدي اهتمام قوي بتحويل البيانات إلى رؤى واضحة ومفيدة.",
@@ -262,6 +281,12 @@
       "skills.card3.li5": "تقارير تحليلية",
 
       "projects.number": "03 / المشاريع",
+      "projects.heading": "نماذج من العمل التحليلي",
+      "projects.sub": "مشروعان عمليان يركزان على تنظيف البيانات وتحليلها وتصويرها وبناء تقارير تفاعلية، مع عرض كل مشروع كدراسة حالة واضحة.",
+      "project1.scopeLabel": "التركيز",
+      "project1.scope": "مؤشرات الموارد البشرية · القوى العاملة · دوران الموظفين",
+      "project2.scopeLabel": "التركيز",
+      "project2.scope": "المؤشرات الاقتصادية · الاتجاهات · المقارنات",
       "project1.tool": "Microsoft Excel",
       "project1.title": "لوحة معلومات تحليلات الموارد البشرية",
       "project1.desc": "لوحة معلومات تفاعلية للموارد البشرية تم تطويرها في Microsoft Excel لتحليل توزيع القوى العاملة، والتعويضات، والأداء، والرضا الوظيفي، والغياب، والتوظيف، ودوران الموظفين.",
