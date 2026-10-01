@@ -6,23 +6,18 @@
      ============================================================ */
   var translations = {
     en: {
-      "nav.name": "ARWA IBRAHIM ALSAIDI",
+      "nav.name": "ARWA IBRAHIM ALSAAIDI",
       "nav.about": "About",
       "nav.skills": "Skills",
       "nav.projects": "Projects",
       "nav.resume": "Resume",
       "nav.contact": "Contact",
 
-      "hero.name": "ARWA IBRAHIM ALSAIDI",
+      "hero.name": "ARWA IBRAHIM ALSAAIDI",
       "hero.title": "DATA ANALYST",
       "hero.tagline": "Data Analysis · Visualization · Interactive Dashboards",
       "hero.cta": "VIEW PROJECTS →",
-      "hero.about": "ABOUT ME ↓",
-
-      "proof.projects": "Selected projects",
-      "proof.indicators": "Power BI indicators",
-      "proof.tools": "Core analytics tools",
-      "proof.language": "EN / AR",
+      "hero.cv": "DOWNLOAD CV →",
 
       "about.number": "01 / ABOUT ME",
       "about.lede": "I am a Data Analyst with a strong interest in turning data into clear and useful insights.",
@@ -51,12 +46,6 @@
       "skills.card3.li5": "Analytical Reporting",
 
       "projects.number": "03 / PROJECTS",
-      "projects.heading": "Selected analytical work",
-      "projects.sub": "Two practical projects focused on cleaning, analysis, visualization, and interactive reporting — presented as case studies rather than template cards.",
-      "project1.scopeLabel": "FOCUS",
-      "project1.scope": "HR metrics · workforce · attrition",
-      "project2.scopeLabel": "FOCUS",
-      "project2.scope": "Economic indicators · trends · comparison",
       "project1.tool": "Microsoft Excel",
       "project1.title": "HR Analytics Dashboard",
       "project1.desc": "An interactive HR dashboard developed in Microsoft Excel to analyze workforce distribution, compensation, performance, satisfaction, absenteeism, recruitment, and employee attrition.",
@@ -83,11 +72,10 @@
       "contact.email": "EMAIL ME →",
       "contact.linkedin": "LINKEDIN →",
 
-      "footer.name": "ARWA IBRAHIM ALSAIDI",
+      "footer.name": "ARWA IBRAHIM ALSAAIDI",
       "footer.role": "DATA ANALYST",
       "footer.lang": "EN / AR",
       "footer.year": "© 2026",
-      "footer.status": "Portfolio preview · links are demo placeholders",
 
       "case.label": "PROJECT",
 
@@ -236,23 +224,18 @@
     },
 
     ar: {
-      "nav.name": "ARWA IBRAHIM ALSAIDI",
+      "nav.name": "ARWA IBRAHIM ALSAAIDI",
       "nav.about": "نبذة عني",
       "nav.skills": "المهارات",
       "nav.projects": "المشاريع",
       "nav.resume": "السيرة الذاتية",
       "nav.contact": "تواصل",
 
-      "hero.name": "ARWA IBRAHIM ALSAIDI",
+      "hero.name": "ARWA IBRAHIM ALSAAIDI",
       "hero.title": "محللة بيانات",
       "hero.tagline": "تحليل البيانات · التصور المرئي · لوحات معلومات تفاعلية",
       "hero.cta": "عرض المشاريع ←",
-      "hero.about": "عني ↓",
-
-      "proof.projects": "مشاريع مختارة",
-      "proof.indicators": "مؤشرات Power BI",
-      "proof.tools": "أدوات التحليل الأساسية",
-      "proof.language": "عربي / إنجليزي",
+      "hero.cv": "تحميل السيرة الذاتية ←",
 
       "about.number": "01 / نبذة عني",
       "about.lede": "أنا محللة بيانات لدي اهتمام قوي بتحويل البيانات إلى رؤى واضحة ومفيدة.",
@@ -281,12 +264,6 @@
       "skills.card3.li5": "تقارير تحليلية",
 
       "projects.number": "03 / المشاريع",
-      "projects.heading": "نماذج من العمل التحليلي",
-      "projects.sub": "مشروعان عمليان يركزان على تنظيف البيانات وتحليلها وتصويرها وبناء تقارير تفاعلية، مع عرض كل مشروع كدراسة حالة واضحة.",
-      "project1.scopeLabel": "التركيز",
-      "project1.scope": "مؤشرات الموارد البشرية · القوى العاملة · دوران الموظفين",
-      "project2.scopeLabel": "التركيز",
-      "project2.scope": "المؤشرات الاقتصادية · الاتجاهات · المقارنات",
       "project1.tool": "Microsoft Excel",
       "project1.title": "لوحة معلومات تحليلات الموارد البشرية",
       "project1.desc": "لوحة معلومات تفاعلية للموارد البشرية تم تطويرها في Microsoft Excel لتحليل توزيع القوى العاملة، والتعويضات، والأداء، والرضا الوظيفي، والغياب، والتوظيف، ودوران الموظفين.",
@@ -313,7 +290,7 @@
       "contact.email": "راسلني عبر البريد ←",
       "contact.linkedin": "لينكدإن ←",
 
-      "footer.name": "ARWA IBRAHIM ALSAIDI",
+      "footer.name": "ARWA IBRAHIM ALSAAIDI",
       "footer.role": "محللة بيانات",
       "footer.lang": "EN / AR",
       "footer.year": "© 2026",
@@ -391,7 +368,7 @@
 
       "pbi.overview.title": "نظرة عامة على المشروع",
       "pbi.overview.p1": "تضمن هذا المشروع تحليل بيانات تاريخية للمؤشرات الاقتصادية الكلية للمملكة العربية السعودية باستخدام Microsoft Power BI. شمل التحليل 52 مؤشرًا اقتصاديًا وديموغرافيًا واجتماعيًا وماليًا وتنمويًا مستمدة من البنك الدولي.",
-      "pbi.overview.p2": "قمت بإعداد وتحويل مجموعة البيانات باستخدام Power Query، ونظّمت البيانات للتحليل، وطوّرت لوحة معلومات تفاعلية تتيح للمستخدمين اختيار مؤشر معين واستكشاف قيمته واتجاهاته التاريخية عبر الزمن.",
+      "pbi.overview.p2": "قمت بإعداد وتحويل مجموعة البيانات باستخدام Power Query، ونظّمت البيانات للتحليل، وطوّرت لوحة معلومات تفاعلية تتيح للمستخدمين اختيار مؤشر معين واستكشاف قيمه واتجاهاته التاريخية عبر الزمن.",
       "pbi.overview.p3": "توفر لوحة المعلومات النهائية رؤية واضحة وتفاعلية للمؤشرات الاقتصادية الكلية للسعودية، وتُظهر كيفية استخدام Power BI لتحويل البيانات الخام إلى رؤى تحليلية ذات معنى.",
 
       "pbi.objective.title": "الهدف",
@@ -424,7 +401,7 @@
       "pbi.model.title": "نمذجة البيانات وDAX وتطوير لوحة المعلومات",
       "pbi.model.p1": "بعد إعداد مجموعة البيانات، قمت بتنظيم البيانات للتحليل في Power BI وأنشأت مقاييس DAX لدعم لوحة المعلومات التفاعلية.",
       "pbi.model.p2": "استخدمت المقاييس دالة التجميع AVERAGE لحساب قيم المؤشرات بناءً على الفلاتر المحددة. تم اعتماد هذا الأسلوب لأن البيانات تمثل مشاهدات سنوية، ما يجعل استخدام المتوسط أكثر ملاءمة من جمع قيم المؤشرات.",
-      "pbi.model.p3": "تضم لوحة المعلومات فلتر مؤشرات (Indicator Slicer) يتيح للمستخدمين اختيار مؤشر معين واستكشاف قيمته واتجاهاته التاريخية بشكل ديناميكي. تعرض بطاقات KPI السنة والقيمة المختارة للمؤشر، بينما يعرض الرسم البياني الرئيسي اتجاه المؤشر المختار عبر السنوات المتاحة.",
+      "pbi.model.p3": "تضم لوحة المعلومات فلتر مؤشرات (Indicator Slicer) يتيح للمستخدمين اختيار مؤشر معين واستكشاف قيمه واتجاهاته التاريخية بشكل ديناميكي. تعرض بطاقات KPI السنة والقيمة المختارة للمؤشر، بينما يعرض الرسم البياني الرئيسي اتجاه المؤشر المختار عبر السنوات المتاحة.",
       "pbi.model.p4": "صُممت لوحة المعلومات لتوفير طريقة بسيطة وتفاعلية لاستكشاف عدة مؤشرات اقتصادية وتنموية ضمن عرض تحليلي واحد.",
 
       "pbi.insights.title": "أبرز النتائج",
@@ -499,7 +476,7 @@
 
     document.title = lang === "ar"
       ? "أروى إبراهيم السعيدي — محللة بيانات"
-      : "Arwa Ibrahim Alsaidi — Data Analyst";
+      : "Arwa Ibrahim Alsaaidi — Data Analyst";
   }
   window.applyLang = applyLang;
 
@@ -508,6 +485,34 @@
     var next = current === "en" ? "ar" : "en";
     storeLang(next);
     applyLang(next);
+  }
+
+  /* ---------- Light / Dark theme ---------- */
+  var THEME_KEY = "arwa-portfolio-theme";
+
+  function getStoredTheme() {
+    try { return localStorage.getItem(THEME_KEY); } catch (e) { return null; }
+  }
+  function storeTheme(theme) {
+    try { localStorage.setItem(THEME_KEY, theme); } catch (e) { /* ignore */ }
+  }
+  function effectiveTheme() {
+    var attr = htmlEl.getAttribute("data-theme");
+    if (attr === "dark" || attr === "light") return attr;
+    return (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+  }
+  function applyTheme(theme) {
+    htmlEl.setAttribute("data-theme", theme);
+    document.querySelectorAll(".theme-toggle").forEach(function (btn) {
+      btn.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+    });
+  }
+  window.applyTheme = applyTheme;
+
+  function toggleTheme() {
+    var next = effectiveTheme() === "dark" ? "light" : "dark";
+    storeTheme(next);
+    applyTheme(next);
   }
 
   document.addEventListener("DOMContentLoaded", function () {
@@ -520,6 +525,25 @@
     var langBtnMobile = document.getElementById("langToggleMobile");
     if (langBtnDesktop) langBtnDesktop.addEventListener("click", toggleLang);
     if (langBtnMobile) langBtnMobile.addEventListener("click", toggleLang);
+
+    /* ---------- Init theme ---------- */
+    var savedTheme = getStoredTheme();
+    applyTheme(savedTheme === "dark" || savedTheme === "light" ? savedTheme : effectiveTheme());
+
+    var themeBtnDesktop = document.getElementById("themeToggleDesktop");
+    var themeBtnMobile = document.getElementById("themeToggleMobile");
+    if (themeBtnDesktop) themeBtnDesktop.addEventListener("click", toggleTheme);
+    if (themeBtnMobile) themeBtnMobile.addEventListener("click", toggleTheme);
+
+    /* Follow the OS theme live only while the person has never chosen one manually */
+    if (window.matchMedia) {
+      var mql = window.matchMedia("(prefers-color-scheme: dark)");
+      var onSchemeChange = function (e) {
+        if (!getStoredTheme()) applyTheme(e.matches ? "dark" : "light");
+      };
+      if (mql.addEventListener) mql.addEventListener("change", onSchemeChange);
+      else if (mql.addListener) mql.addListener(onSchemeChange);
+    }
 
     /* ---------- Mobile menu ---------- */
     var navToggle = document.getElementById("navToggle");
@@ -599,6 +623,16 @@
       });
     });
 
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") {
+        Object.keys(caseMap).forEach(function (key) {
+          var panel = caseMap[key];
+          if (panel && panel.classList.contains("is-open")) closeCase(panel);
+        });
+        closeLightbox();
+      }
+    });
+
     /* ---------- Lightbox ---------- */
     var lightbox = document.getElementById("lightbox");
     var lightboxImg = document.getElementById("lightboxImg");
@@ -618,20 +652,6 @@
       lightboxImg.src = "";
     }
 
-    /* تحسين إدارة حدث الكيبورد للإغلاق عبر Escape بشكل منظم */
-    document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape") {
-        if (lightbox && lightbox.classList.contains("is-open")) {
-          closeLightbox();
-        } else {
-          Object.keys(caseMap).forEach(function (key) {
-            var panel = caseMap[key];
-            if (panel && panel.classList.contains("is-open")) closeCase(panel);
-          });
-        }
-      }
-    });
-
     document.querySelectorAll(".preview-hero-img img, .preview-grid img").forEach(function (img) {
       img.addEventListener("click", function () {
         openLightbox(img.currentSrc || img.src, img.alt);
@@ -645,10 +665,7 @@
         }
       });
     });
-    if (lightboxClose) {
-      lightboxClose.setAttribute("tabindex", "0");
-      lightboxClose.addEventListener("click", closeLightbox);
-    }
+    if (lightboxClose) lightboxClose.addEventListener("click", closeLightbox);
     if (lightbox) {
       lightbox.addEventListener("click", function (e) {
         if (e.target === lightbox) closeLightbox();
