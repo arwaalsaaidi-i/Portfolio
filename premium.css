@@ -1,0 +1,239 @@
+/* ============================================================
+   PREMIUM PASS — editorial, restrained, human-made
+   This layer intentionally removes the "AI template" signals:
+   no glass cards, no loud gradients, no floating orb, no pill-everything.
+   ============================================================ */
+:root {
+  --premium-radius: 12px;
+  --premium-radius-sm: 8px;
+  --premium-rule: color-mix(in srgb, var(--text-primary) 13%, transparent);
+  --premium-muted: color-mix(in srgb, var(--text-primary) 58%, transparent);
+}
+
+/* Keep the page visually quiet. The canvas remains available but becomes a
+   barely-there texture instead of a moving decorative centerpiece. */
+#bg { opacity: .16 !important; }
+
+.navbar {
+  background: color-mix(in srgb, var(--bg-page) 94%, transparent) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border-bottom: 1px solid var(--premium-rule) !important;
+}
+.navbar-inner { min-height: 68px !important; }
+.brand { letter-spacing: .02em !important; font-weight: 700 !important; }
+
+/* ---------- HERO ---------- */
+.hero {
+  min-height: min(760px, 82svh) !important;
+  padding-top: 68px !important;
+  padding-bottom: clamp(3.5rem, 7vw, 5.5rem) !important;
+}
+.hero-inner {
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, .65fr) !important;
+  gap: clamp(2rem, 7vw, 7rem) !important;
+  align-items: center !important;
+}
+.hero-content { max-width: 760px; }
+.hero-identity {
+  margin-bottom: 1.25rem !important;
+  gap: .7rem !important;
+}
+.hero-identity::before {
+  width: 22px !important;
+  height: 1px !important;
+  background: var(--accent) !important;
+}
+.hero-content .eyebrow-name {
+  font-size: .74rem !important;
+  letter-spacing: .12em !important;
+  font-weight: 700 !important;
+  color: var(--text-secondary) !important;
+}
+.hero-title {
+  font-size: clamp(3.25rem, 8vw, 7rem) !important;
+  line-height: .91 !important;
+  letter-spacing: -.065em !important;
+  max-width: 7.5ch !important;
+  color: var(--text-primary) !important;
+  background: none !important;
+  -webkit-text-fill-color: initial !important;
+  text-wrap: balance;
+}
+.hero-tagline {
+  margin-top: 1.35rem !important;
+  max-width: 35rem !important;
+  font-size: clamp(.98rem, 1.25vw, 1.08rem) !important;
+  line-height: 1.7 !important;
+  color: var(--text-secondary) !important;
+}
+.hero-cta { margin-top: 2rem !important; gap: .9rem !important; }
+.link-cta.primary,
+.link-cta.secondary {
+  border-radius: var(--premium-radius-sm) !important;
+  padding: .78rem 1.1rem !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+.link-cta.primary {
+  background: var(--btn-bg) !important;
+  color: var(--btn-text) !important;
+}
+.link-cta.secondary {
+  background: transparent !important;
+  border: 1px solid var(--border-accent) !important;
+}
+.link-cta:hover { transform: translateY(-1px) !important; box-shadow: none !important; }
+
+.hero-visual {
+  width: min(100%, 360px) !important;
+  max-width: 360px !important;
+  height: auto !important;
+  aspect-ratio: 1 / .88 !important;
+  opacity: 1 !important;
+  margin-inline-start: auto !important;
+}
+.hero-visual svg {
+  width: 100% !important;
+  height: 100% !important;
+  filter: none !important;
+  animation: none !important;
+}
+
+/* ---------- SECTION RHYTHM ---------- */
+.section { padding-block: clamp(4.75rem, 8vw, 7rem) !important; }
+.section-intro { max-width: 720px !important; margin-bottom: clamp(2.25rem, 4vw, 3.25rem) !important; }
+.eyebrow {
+  font-size: .72rem !important;
+  letter-spacing: .11em !important;
+  font-weight: 700 !important;
+  color: var(--text-secondary) !important;
+}
+.section-heading {
+  font-size: clamp(2rem, 3.7vw, 3rem) !important;
+  letter-spacing: -.045em !important;
+  font-weight: 700 !important;
+}
+.section-heading::after { display: none !important; }
+
+/* ---------- CARDS: solid editorial surfaces ---------- */
+.skill-card,
+.project-card,
+.insight-card,
+.rec-card {
+  border-radius: var(--premium-radius) !important;
+  background: var(--bg-surface) !important;
+  border: 1px solid var(--premium-rule) !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+.skill-card:hover,
+.project-card:hover,
+.insight-card:hover,
+.rec-card:hover {
+  transform: translateY(-2px) !important;
+  border-color: var(--border-accent) !important;
+  box-shadow: 0 12px 30px -24px rgba(var(--shadow-rgb), .7) !important;
+}
+
+/* ---------- PROJECTS ---------- */
+.projects-grid {
+  gap: 1.25rem !important;
+  align-items: stretch;
+}
+.project-card { border-radius: var(--premium-radius) !important; }
+.project-media {
+  aspect-ratio: 16 / 9 !important;
+  background: var(--bg-surface-2) !important;
+  border-bottom: 1px solid var(--premium-rule) !important;
+}
+.project-card:hover .project-media img { transform: none !important; }
+.project-body { padding: 1.6rem 1.7rem 1.8rem !important; }
+.project-meta {
+  margin-bottom: .8rem !important;
+  justify-content: space-between;
+}
+.project-number { font-variant-numeric: tabular-nums; }
+.project-tool { font-size: .72rem !important; letter-spacing: .04em; }
+.project-title {
+  font-size: clamp(1.25rem, 2vw, 1.55rem) !important;
+  letter-spacing: -.025em !important;
+  line-height: 1.2 !important;
+}
+.project-desc { color: var(--text-secondary) !important; line-height: 1.7 !important; }
+.project-tools {
+  font-size: .75rem !important;
+  line-height: 1.6 !important;
+  color: var(--premium-muted) !important;
+}
+.project-body .link-cta {
+  margin-top: 1.35rem !important;
+  align-self: flex-start;
+}
+
+/* ---------- CASE STUDIES ---------- */
+.case-study-header { border-bottom-color: var(--premium-rule) !important; }
+.case-study-inner { max-width: 1040px !important; }
+.case-hero h1 {
+  letter-spacing: -.05em !important;
+  line-height: 1.02 !important;
+}
+.case-study-tag { border-radius: var(--premium-radius-sm) !important; }
+.preview-hero-img,
+.preview-grid figure { border-radius: var(--premium-radius) !important; }
+
+/* ---------- RESUME / CONTACT ---------- */
+.resume-section { border-top: 1px solid var(--premium-rule); border-bottom: 1px solid var(--premium-rule); }
+.contact-section { background: var(--bg-inverted) !important; }
+.contact-buttons .link-cta { border-radius: var(--premium-radius-sm) !important; }
+
+/* ---------- MOBILE: no squeezed desktop layout ---------- */
+@media (max-width: 900px) {
+  .hero {
+    min-height: auto !important;
+    padding-top: 7.2rem !important;
+    padding-bottom: 4.25rem !important;
+  }
+  .hero-inner {
+    grid-template-columns: 1fr !important;
+    gap: 2.2rem !important;
+    align-items: start !important;
+  }
+  .hero-visual {
+    order: -1 !important;
+    width: min(100%, 250px) !important;
+    margin-inline: auto !important;
+  }
+  .hero-title { max-width: 8ch !important; }
+}
+
+@media (max-width: 640px) {
+  .navbar-inner { min-height: 62px !important; }
+  .hero {
+    padding-top: 6.4rem !important;
+    padding-bottom: 3.5rem !important;
+  }
+  .hero-inner { gap: 1.55rem !important; }
+  .hero-visual { width: min(70vw, 210px) !important; }
+  .hero-content .eyebrow-name { font-size: .68rem !important; letter-spacing: .1em !important; }
+  .hero-title {
+    font-size: clamp(2.8rem, 15vw, 4.3rem) !important;
+    line-height: .94 !important;
+    max-width: 7.5ch !important;
+  }
+  .hero-tagline { margin-top: 1rem !important; font-size: .94rem !important; }
+  .hero-cta { display: flex !important; flex-direction: column !important; align-items: stretch !important; margin-top: 1.45rem !important; }
+  .hero-cta .link-cta { width: 100% !important; justify-content: center !important; }
+  .projects-grid { gap: 1rem !important; }
+  .project-body { padding: 1.35rem !important; }
+}
+
+@media (max-width: 380px) {
+  .hero-visual { width: 175px !important; }
+  .hero-title { font-size: 2.65rem !important; }
+}
+
+/* RTL alignment remains deliberate, not mirrored blindly. */
+html[dir="rtl"] .hero-content { text-align: right !important; }
+html[dir="ltr"] .hero-content { text-align: left !important; }
